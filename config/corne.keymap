@@ -41,10 +41,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1  &kp N2     &kp N3         &kp N4    &kp N5       &kp N6          &kp N7    &kp N8        &kp N9     &kp N0  &kp BSPC
-&trans      &trans  &kp RCTRL  &kp RIGHT_ALT  &kp RCMD  &kp INS      &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &kp DELETE
-&kp LSHFT   &trans  &trans     &trans         &trans    &trans       &trans          &trans    &trans        &trans     &trans  &trans
-                               &kp LGUI       &trans    &kp SPACE    &kp RET         &mo 3     &kp RALT
+&kp ESCAPE      &kp N1  &kp N2     &kp N3         &kp N4    &kp N5     &kp N6          &kp N7    &kp N8        &kp N9     &kp N0  &kp BSPC
+&kp LEFT_SHIFT  &trans  &kp RCTRL  &kp RIGHT_ALT  &kp RCMD  &kp INS    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &kp DELETE
+&trans          &trans  &trans     &trans         &trans    &trans     &trans          &trans    &trans        &trans     &trans  &trans
+                                   &trans         &trans    &trans     &trans          &mo 3     &trans
             >;
         };
 
@@ -56,10 +56,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT     &kp HASH       &kp DLLR        &kp PRCNT               &kp CARET              &kp AMPS         &kp KP_MULTIPLY    &kp MINUS         &kp EQUAL  &kp BSPC
-&kp LCTRL  &trans    &kp TILDE  &kp GRAVE      &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE   &trans
-&kp LSHFT  &trans    &trans     &kp BACKSLASH  &kp UNDERSCORE  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PLUS         &kp SLASH          &trans            &trans     &trans
-                                &kp LGUI       &mo 3           &kp SPACE               &kp RET                &trans           &kp RALT
+&kp GRAVE       &kp EXCL  &kp AT  &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS          &kp KP_MULTIPLY    &kp MINUS      &kp EQUAL  &kp RS(BACKSLASH)
+&kp LEFT_SHIFT  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp SQT    &trans
+&trans          &trans    &trans  &trans                &trans                 &trans            &trans     &kp COMMA         &kp PERIOD         &kp SEMICOLON  &kp SLASH  &trans
+                                  &trans                &mo 3                  &kp LEFT_SHIFT    &trans     &trans            &trans
             >;
         };
 
