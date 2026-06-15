@@ -56,10 +56,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE       &kp EXCL  &kp AT  &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET  &kp AMPS          &kp KP_MULTIPLY    &kp MINUS      &kp EQUAL  &kp RS(BACKSLASH)
-&kp LEFT_SHIFT  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &trans     &trans
-&trans          &trans    &trans  &trans                &trans                 &trans            &trans     &kp COMMA         &kp PERIOD         &kp SEMICOLON  &kp SLASH  &trans
-                                  &trans                &mo 3                  &kp LEFT_SHIFT    &trans     &trans            &trans
+&kp GRAVE       &kp EXCL  &kp AT     &kp HASH              &kp DLLR               &kp PRCNT         &kp CARET      &kp AMPS          &kp KP_MULTIPLY    &kp MINUS  &kp EQUAL  &trans
+&kp LEFT_SHIFT  &trans    &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT    &trans     &trans
+&trans          &trans    &trans     &trans                &trans                 &trans            &trans         &trans            &trans             &trans     &trans     &trans
+                                     &trans                &mo 3                  &kp LEFT_SHIFT    &trans         &trans            &trans
             >;
         };
 
